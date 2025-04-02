@@ -1,11 +1,4 @@
-# COMP0171-Bayesian-Deep-Learning-CW1
-
-- Final Grades: 91/100
-  - Comments:
-  - [Part 1: 15/14] Good implementation, good short answer overall but note that updating one at a time is often *worse* for correlated variables — would get stuck!
-  - [Part 2: 17/21] Your SGD with a very low learning rate seems to be getting “stuck”, or stopping early somehow — you’re actually still quite a bit off the optimal parameters. (You can see this even by taking your estimates and adding a little big of Gaussian noise as jitter — this often even leads to higher values of log_joint from what you have, on the quadratic features…). Minor bug in evidence computation. Otherwise looks good. Your features don’t include sine/cosine, although in the short answer you say they do? The features you have actually perform worse than the quadratic features with interactions, both in terms of test accuracy and model evidence… For last part of short answer — note that the MAP estimate already has “regularization”, so careful when describing what is “different” about using the Laplace posterior predictive distribution rather than just the MAP predictions.
-
----
+# Bayesian Neural Networks for Uncertainty Quantification
 
 ## Overview
 
